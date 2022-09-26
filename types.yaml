@@ -78,7 +78,7 @@ components:
             type: Property         
         dateModified:
           description: "The date that the observation was modified."
-          type: DateTime
+          type: string
           x-ngsi:
             type: Property
         measurement:
@@ -130,7 +130,7 @@ components:
             type: Property
         binClearedTime:
           description: "The time that the bin was cleared."
-          type: DateTime
+          type: string
           x-ngsi:
             type: Property
         binCategory:
