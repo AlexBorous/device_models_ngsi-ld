@@ -85,8 +85,8 @@
         "HasRooms": "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json#HasRooms",
         "Stair": "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json#Stair",
         "StairsInRoom": "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json#StairsInRoom",
-        "Device": "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json#device",
-        "Bin": "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json#Bin",
-        "Observation": "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json#Observation"
+        "Device": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Device",
+        "Bin": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Bin",
+        "Observation": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Observation"
     }
 }
