@@ -63,6 +63,9 @@
               "type": "string"
             }
           }
+        },
+        "measurementType": {
+          "type": "string"
         }
       }
     },
