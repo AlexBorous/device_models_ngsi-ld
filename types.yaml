@@ -34,12 +34,12 @@ components:
           description: "The observation types connected with the device."
           type: array
           x-ngsi:
-            type: "Relationship"
+            type: Property
         observations:
           description: "List of id's of the observations connected with the device."
           type: array
           x-ngsi:
-            type: "Relationship"
+            type: Property
       x-ngsi:
         uri-prefix: "https://raw.githubusercontent.com/SAMSGBLab/iotspaces-DataModels/main/Building/type-definitions.json"             
     Observation:
@@ -82,10 +82,17 @@ components:
           x-ngsi:
             type: Property
         measurement:
-          description: "The value of the observation."
-          type: number
-          x-ngsi:
-            type: Property
+            required:
+              - value
+              - measurementUnit
+            type: object
+            properties:
+              value: number
+              type: string
+              measurementUnit: string
+              description: "The value of the observation."
+            x-ngsi:
+              type: Property
         measurementType:
           description: "The type of the measurement of the observation."
           type: string
