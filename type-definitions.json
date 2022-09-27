@@ -50,10 +50,19 @@
           "type": "string"
         },
         "measurement": {
-          "type": "number"
-        },
-        "measurementType": {
-          "type": "string"
+          "type": "object",
+          "required": ["value", "measurementUnit"],
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "value": {
+              "type": "number"
+            },
+            "measurementUnit": {
+              "type": "string"
+            }
+          }
         }
       }
     },
