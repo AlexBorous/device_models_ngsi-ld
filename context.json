@@ -12,6 +12,21 @@
         "value": "fiware:value",
         "Device": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Device",
         "Bin": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Bin",
-        "Observation": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Observation"
+        "Observation": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#Observation",
+        "storedWasteKind": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#storedWasteKind",
+        "observations": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#observations",
+        "controlledObservation": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#controlledObservation",
+        "measurement": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#measurement",
+        "measurementType": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#measurementType",
+        "binCapacity": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#binCapacity",
+        "binClearedTime": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#binClearedTime",
+        "binCategory": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#binCategory",
+        "binFillingLevel": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#binFillingLevel",
+        "binRecommendedLoad": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#binRecommendedLoad",
+        "binFull": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#binFull",
+        "status": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#status",
+        "storedItems": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#storedItems",
+        "actuationDevices": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#actuationDevices",
+        "observationDevices": "https://raw.githubusercontent.com/AlexBorous/device_models_ngsi-ld/d037671bd9d3532f3ae6527eb9fbbe8df9a22cd8/type-definitions.json#observationDevices"
     }
 }
